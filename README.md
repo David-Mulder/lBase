@@ -1,8 +1,12 @@
 Installation
 ============
+*I do plan to automate this at some point*
+
 1. Set up a jetty or tomcat webapp.
 2. Install OpenBD into it
 3. Add a system folder
-4. Place all this code (from this git repository) into this system folder
-5. Move the files from system/_installation to the root of the webapp (and delete the _installation folder)
-6. Download the admin module from the lbase_modules repository
+4. Place all this code (from this git repository) into the system folder
+5. Move the files from system/_installation/root to the root of the webapp
+6. Install [UrlRewriteFilter](http://www.tuckey.org/urlrewrite/) in your webapp and move _installation/urlrewrite.xml to WEB-INF
+7. Delete the _installation folder
+8. Download the admin and manual module from the lbase_modules repository
