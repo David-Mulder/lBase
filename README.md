@@ -1,3 +1,7 @@
+lBase
+=====
+**This is a pre-pre alpha release!** The framework will be easier to install and better documented once it's finished. Documentation can be found in the manual module found in lbase_modules (if you wish to check the documentation without installing lbase you can for now open the lbase_modules repository and browse to manual/views/pages and explore the files there). 
+
 Installation
 ============
 *I do plan to automate this at some point*
@@ -14,3 +18,7 @@ Installation
 Do not forget
 =============
 - To trigger the admin/assets/regenerate before you start using modules.
+
+License
+=======
+Check the LICENSE file
